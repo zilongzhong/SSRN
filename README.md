@@ -1,13 +1,13 @@
 # SSRN for Hyperspectral Image Classification in Kersa
 
-This is the keras implementation of SSRNs in the [TGRS paper](https://www.researchgate.net/publication/320145277_Spectral-spatial_residual_networks_for_hyperspectral_image_classification_a_3D_deep_learning_framework) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
+This is the keras implementation of SSRNs in the [TGRS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
 <br/>
 
 ```jason
-Spectral-spatial residual networks for hyperspectral image classification: a 3D deep learning framework
+Spectral-spatial residual networks for hyperspectral image classification: a 3-D deep learning framework
 Zilong Zhong, Jonathan Li, Zhiming Luo, Michael Chapman
 IEEE Transactions on Geoscience and Remote Sensing
-Article DOI: 10.1109/TGRS.2017.2755542
+DOI: 10.1109/TGRS.2017.2755542
 ```
 
 ```jason
@@ -28,10 +28,31 @@ The proposed SSRN is a supervised deep learning framework that alleviates the de
 
 ## Prerequisites
 
-- [Anaconda2.7](https://www.anaconda.com/download/#linux)
+- [Anaconda 2.7](https://www.anaconda.com/download/#linux)
 - [Tensorflow 1.3](https://github.com/tensorflow/tensorflow/tree/r1.3)
+- [Keras 2.0](https://github.com/fchollet/keras)
 
-When you create a conda environment, check you have installed the packages in the [package-list](https://github.com/zilongzhong/SSRN/blob/master/package-list.txt).
+When you create a conda environment, check you have installed the packages in the [package-list](https://github.com/zilongzhong/SSRN/blob/master/package-list.txt). You can also refer to the [managing environments](https://conda.io/docs/user-guide/tasks/manage-environments.html) of conda.
+
+
+## Usage
+
+Train models with commonly studied hyperspectral imagery (HSI) datasets:
+```bash
+$ python ./Kernel8_IN.py
+$ python ./Kernel8_IN.py
+
+```
+Evaluate saved trained models:
+```bash
+$python ./Load_Models/Load_Kernel8_IN.py
+$python ./Load_Models/Load_Kernel8_UP.py
+```
+Illustrate final classification maps:
+```bash
+$python ./Classification\ Maps/IN_classification_maps.py
+$python ./Classification\ Maps/UP_classification_maps.py
+```
 
 ## Results
 
@@ -55,3 +76,7 @@ Fig.3  Classification results of different deep learning mdoels for IN datasets.
 
 <a href="https://www.youtube.com/watch?v=Od1DQESmbFg&t=0s" target="_blank"><img src="https://i.ytimg.com/vi/Od1DQESmbFg/maxresdefault.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+## Acknowledgement
+
+Part of codes is from a wonderful ResNet keras implementation by [Raghavendra Kotikalapudi](https://github.com/raghakot/keras-resnet).
