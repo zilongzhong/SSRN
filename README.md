@@ -19,7 +19,7 @@ IGARSS 2017
 ## Descriptions
 In this paper, we designed an end-to-end spectral-spatial residual network (SSRN) that takes raw 3D cubes as input data without feature engineering for hyperspectral image classification. In this network, the spectral and spatial residual blocks consecutively learn discriminative features from abundant spectral signatures and spatial contexts in hyperspectral imagery (HSI).
 
-<img src="figure/fig5.png" height="300"/>
+<img src="figure/fig1.png" height="300"/>
 
 Fig.1  Spectral-Spatial Residual Network with a 7x7x200 input HSI volume. The network includes two spectral and two spatial residual blocks. An average pooling layer and a fully connected layer transform a 5x5x24 spectral-spatial feature volume into a 1x1xL output feature vector
 
@@ -60,7 +60,7 @@ $python ./Classification\ Maps/UP_classification_maps.py
 
 * Generated samples (100th epochs)
 
-<img src="figure/fig7.png" height="300"/>
+<img src="figure/fig2.png" height="300"/>
 
 Fig.2  Classification results of different deep learning mdoels for IN datasets. (a) False color image. (b) Ground truth labels. (c) - (i) Classification results of SVM, SAE, CNN, CNNL, SPA, SPC, and SSRN}
 
@@ -68,7 +68,7 @@ Fig.2  Classification results of different deep learning mdoels for IN datasets.
 
 * Generated samples (100th epochs)
 
-<img src="figure/fig9.png" height="400"/>
+<img src="figure/fig3.png" height="400"/>
 
 Fig.3  Classification results of different deep learning mdoels for IN datasets. (a) False color image. (b) Ground truth labels. (c) - (i) Classification results of SVM, SAE, CNN, CNNL, SPA, SPC, and SSRN}
 
