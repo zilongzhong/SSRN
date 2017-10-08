@@ -60,7 +60,7 @@ $python ./Classification\ Maps/UP_classification_maps.py
 
 * Generated samples (100th epochs)
 
-<img src="figure/fig2.png" height="300"/>
+<img src="figure/fig2.png" height="200"/>
 
 Fig.2  Classification results of different deep learning mdoels for IN datasets. (a) False color image. (b) Ground truth labels. (c) - (i) Classification results of SVM, SAE, CNN, CNNL, SPA, SPC, and SSRN}
 
@@ -68,7 +68,7 @@ Fig.2  Classification results of different deep learning mdoels for IN datasets.
 
 * Generated samples (100th epochs)
 
-<img src="figure/fig3.png" height="400"/>
+<img src="figure/fig3.png" height="200"/>
 
 Fig.3  Classification results of different deep learning mdoels for IN datasets. (a) False color image. (b) Ground truth labels. (c) - (i) Classification results of SVM, SAE, CNN, CNNL, SPA, SPC, and SSRN}
 
