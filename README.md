@@ -39,19 +39,21 @@ When you create a conda environment, check you have installed the packages in th
 
 Train models with commonly studied hyperspectral imagery (HSI) datasets:
 ```bash
-$ python ./Kernel8_IN.py
-$ python ./Kernel8_IN.py
+$ python ./SSRN_IN.py
+$ python ./SSRN_UP.py
 
 ```
 Evaluate saved trained models:
 ```bash
-$python ./Load_Models/Load_Kernel8_IN.py
-$python ./Load_Models/Load_Kernel8_UP.py
+$python ./Load_Models/Load_IN.py
+$python ./Load_Models/Load_UP.py
+
 ```
 Illustrate final classification maps:
 ```bash
 $python ./Classification\ Maps/IN_classification_maps.py
 $python ./Classification\ Maps/UP_classification_maps.py
+
 ```
 
 ## Results
@@ -60,13 +62,13 @@ $python ./Classification\ Maps/UP_classification_maps.py
 
 <img src="figure/fig2.png" height="200"/>
 
-Fig.2  Classification results of different deep learning mdoels for IN datasets. (a) False color image. (b) Ground truth labels. (c) - (i) Classification results of SVM, SAE, CNN, CNNL, SPA, SPC, and SSRN}
+Fig.2  The classification result (Overall Accuracy 99.44%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map. 
 
 ### University of Pavia (UP) dataset
 
 <img src="figure/fig3.png" height="200"/>
 
-Fig.3  Classification results of different deep learning mdoels for IN datasets. (a) False color image. (b) Ground truth labels. (c) - (i) Classification results of SVM, SAE, CNN, CNNL, SPA, SPC, and SSRN}
+Fig.3  The classification result (Overall Accuracy 99.91%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map.
 
 ## IGARSS Presentation
 
