@@ -77,4 +77,4 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Acknowledgement
 
-Part of codes is from a wonderful ResNet keras implementation by [Raghavendra Kotikalapudi](https://github.com/raghakot/keras-resnet).
+Part of codes is from a wonderful implementation of ResNet by [Raghavendra Kotikalapudi](https://github.com/raghakot/keras-resnet).
