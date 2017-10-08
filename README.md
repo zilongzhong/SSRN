@@ -56,17 +56,13 @@ $python ./Classification\ Maps/UP_classification_maps.py
 
 ## Results
 
-### IN dataset
-
-* Generated samples (100th epochs)
+### Indian Pines (IN) dataset
 
 <img src="figure/fig2.png" height="200"/>
 
 Fig.2  Classification results of different deep learning mdoels for IN datasets. (a) False color image. (b) Ground truth labels. (c) - (i) Classification results of SVM, SAE, CNN, CNNL, SPA, SPC, and SSRN}
 
-### UP dataset
-
-* Generated samples (100th epochs)
+### University of Pavia (UP) dataset
 
 <img src="figure/fig3.png" height="200"/>
 
