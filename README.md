@@ -19,11 +19,11 @@ IGARSS 2017
 ## Descriptions
 In this paper, we designed an end-to-end spectral-spatial residual network (SSRN) that takes raw 3D cubes as input data without feature engineering for hyperspectral image classification. In this network, the spectral and spatial residual blocks consecutively learn discriminative features from abundant spectral signatures and spatial contexts in hyperspectral imagery (HSI).
 
-<img src="figure/fig1_1.png" height="300"/>
+<img src="figure/fig1_1.png" height="150"/>
 
 Fig.1 Spectral Residual Block
 
-<img src="figure/fig1_2.png" height="300"/>
+<img src="figure/fig1_2.png" height="120"/>
 
 Fig.2 Spatial Residual Block
 
