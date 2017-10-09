@@ -1,0 +1,7 @@
+KAPPAs, mean_KAPPA ± std_KAPPA for each iteration are:[0.99364341791175592]0.993643417912 ± 0.0
+OAs, mean_OA ± std_OA for each iteration are:[0.99442042125819496]0.994420421258 ± 0.0
+AAs, mean_AA ± std_AA for each iteration are:[0.9143692315194627]0.914369231519 ± 0.0
+Mean of all elements in confusion matrix:[ 0.92105263  0.99602781  0.99143836  0.99401198  0.9942029   0.99806202
+  0.76923077  1.          0.          0.98984035  0.99823322  0.98122066
+  1.          0.99658703  1.          1.        ]
+Standard deviation of all elements in confusion matrix[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
