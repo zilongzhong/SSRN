@@ -1,6 +1,6 @@
 # Implementation of SSRN for Hyperspectral Image Classification
 
-This is a tensorflow and keras -based implementation of SSRNs in the [TGRS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
+This is a tensorflow and keras based implementation of SSRNs in the [TGRS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
 <br/>
 
 ```jason
@@ -19,9 +19,17 @@ IGARSS 2017
 ## Descriptions
 In this paper, we designed an end-to-end spectral-spatial residual network (SSRN) that takes raw 3D cubes as input data without feature engineering for hyperspectral image classification. In this network, the spectral and spatial residual blocks consecutively learn discriminative features from abundant spectral signatures and spatial contexts in hyperspectral imagery (HSI).
 
+<img src="figure/fig1_1.png" height="300"/>
+
+Fig.1 Spectral Residual Block
+
+<img src="figure/fig1_2.png" height="300"/>
+
+Fig.2 Spatial Residual Block
+
 <img src="figure/fig1.png" height="300"/>
 
-Fig.1  Spectral-Spatial Residual Network with a 7x7x200 input HSI volume. The network includes two spectral and two spatial residual blocks. An average pooling layer and a fully connected layer transform a 5x5x24 spectral-spatial feature volume into a 1x1xL output feature vector
+Fig.3  Spectral-Spatial Residual Network with a 7x7x200 input HSI volume. The network includes two spectral and two spatial residual blocks. An average pooling layer and a fully connected layer transform a 5x5x24 spectral-spatial feature volume into a 1x1xL output feature vector
 
 The proposed SSRN is a supervised deep learning framework that alleviates the declining-accuracy phenomenon of other deep learning models. Specifically, the residual blocks connect every other 3D convolutional layer through identity mapping, which facilitates the back propagation of gradients. Furthermore, we impose batch normalization on every convolutional layer to regularize the learning process and improve the classification performance of trained models. Quantitative and qualitative results demonstrate that SSRN achieved the state-of-the-art HSI classification accuracy in different kinds of hyperspectral datasets.
 
@@ -62,13 +70,13 @@ $python ./Classification\ Maps/UP_classification_maps.py
 
 <img src="figure/fig2.png" height="200"/>
 
-Fig.2  The classification result (Overall Accuracy 99.44%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map. 
+Fig.4  The classification result (Overall Accuracy 99.44%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map. 
 
 ### University of Pavia (UP) dataset
 
 <img src="figure/fig3.png" height="200"/>
 
-Fig.3  The classification result (Overall Accuracy 99.91%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map.
+Fig.5  The classification result (Overall Accuracy 99.91%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map.
 
 ## IGARSS Presentation
 
