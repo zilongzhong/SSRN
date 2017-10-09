@@ -121,8 +121,8 @@ data = preprocessing.scale(data)
 # data = scaler.fit_transform(data)
 
 data_ = data.reshape(data_IN.shape[0], data_IN.shape[1],data_IN.shape[2])
-whole_pca32 = data_
-padded_pca32 = zeroPadding.zeroPadding_3D(whole_pca32, PATCH_LENGTH)
+whole_data = data_
+padded_data = zeroPadding.zeroPadding_3D(whole_data, PATCH_LENGTH)
 
 ITER = 1
 CATEGORY = 16
@@ -150,21 +150,21 @@ for index_iter in xrange(ITER):
     y_test_raw = gt[test_indices] - 1
     y_test = to_categorical(np.asarray(y_test_raw))
 
-    all_assign = indexToAssignment(range(ALL_SIZE), whole_pca32.shape[0], whole_pca32.shape[1], PATCH_LENGTH)
+    all_assign = indexToAssignment(range(ALL_SIZE), whole_data.shape[0], whole_data.shape[1], PATCH_LENGTH)
     for i in range(len(all_assign)):
-        all_data[i] = selectNeighboringPatch(padded_pca32, all_assign[i][0], all_assign[i][1], PATCH_LENGTH)
+        all_data[i] = selectNeighboringPatch(padded_data, all_assign[i][0], all_assign[i][1], PATCH_LENGTH)
 
     # first principal component training data
-    train_assign = indexToAssignment(train_indices, whole_pca32.shape[0], whole_pca32.shape[1], PATCH_LENGTH)
+    train_assign = indexToAssignment(train_indices, whole_data.shape[0], whole_data.shape[1], PATCH_LENGTH)
     # train_data = np.zeros((len(train_assign), 2*PATCH_LENGTH + 1, 2*PATCH_LENGTH + 1, INPUT_DIMENSION_CONV))
     for i in range(len(train_assign)):
-        train_data[i] = selectNeighboringPatch(padded_pca32, train_assign[i][0], train_assign[i][1], PATCH_LENGTH)
+        train_data[i] = selectNeighboringPatch(padded_data, train_assign[i][0], train_assign[i][1], PATCH_LENGTH)
 
     # first principal component testing data
-    test_assign = indexToAssignment(test_indices, whole_pca32.shape[0], whole_pca32.shape[1], PATCH_LENGTH)
+    test_assign = indexToAssignment(test_indices, whole_data.shape[0], whole_data.shape[1], PATCH_LENGTH)
     # test_data = np.zeros((len(test_assign), 2*PATCH_LENGTH + 1, 2*PATCH_LENGTH + 1, INPUT_DIMENSION_CONV))
     for i in range(len(test_assign)):
-        test_data[i] = selectNeighboringPatch(padded_pca32, test_assign[i][0], test_assign[i][1], PATCH_LENGTH)
+        test_data[i] = selectNeighboringPatch(padded_data, test_assign[i][0], test_assign[i][1], PATCH_LENGTH)
 
     # x_train = train_data.reshape(train_data.shape[0], train_data.shape[1], train_data.shape[2], INPUT_DIMENSION_CONV)
     # x_test = test_data.reshape(test_data.shape[0], test_data.shape[1], test_data.shape[2], INPUT_DIMENSION_CONV)
