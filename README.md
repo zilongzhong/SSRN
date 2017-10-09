@@ -23,7 +23,7 @@ In this paper, we designed an end-to-end spectral-spatial residual network (SSRN
 
 Fig.1 Spectral Residual Block
 
-<img src="figure/fig1_2.png" height="180"/>
+<img src="figure/fig1_2.png" height="170"/>
 
 Fig.2 Spatial Residual Block
 
