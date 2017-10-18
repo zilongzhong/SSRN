@@ -70,13 +70,13 @@ $python ./Classification\ Maps/UP_classification_maps.py
 
 ### Indian Pines (IN) dataset
 
-<img src="figure/fig2.png" height="200"/>
+<img src="figure/fig3.png" height="200"/>
 
 Fig.4  The classification result (Overall Accuracy 99.44%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map. 
 
 ### University of Pavia (UP) dataset
 
-<img src="figure/fig3.png" height="200"/>
+<img src="figure/fig2.png" height="200"/>
 
 Fig.5  The classification result (Overall Accuracy 99.91%) of SSRN for IN datasets. (a) False color image. (b) Ground truth labels. (c) Classification map.
 
