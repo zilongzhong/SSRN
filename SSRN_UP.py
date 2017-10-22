@@ -91,7 +91,7 @@ TRAIN_SIZE = 4281
 TEST_SIZE = TOTAL_SIZE - TRAIN_SIZE
 
 img_channels = 103
-VALIDATION_SPLIT = 0.90
+VALIDATION_SPLIT = 0.90                     # 10% for training and %90 for validation and testing
 
 img_channels = 103
 PATCH_LENGTH = 3                #Patch_size (13*2+1)*(13*2+1)
