@@ -131,6 +131,8 @@ seeds = [1334]
 for index_iter in xrange(ITER):
     print("# %d Iteration" % (index_iter + 1))
 
+    # save the best validated model 
+    
     best_weights_RES_path_ss4 = '/home/zilong/SSRN/models/Indian_best_RES_3D_SS4_10_' + str(
         index_iter + 1) + '.hdf5'
 
