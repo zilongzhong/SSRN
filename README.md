@@ -4,7 +4,7 @@ This is a tensorflow and keras based implementation of SSRNs in the [TGRS paper]
 
 Code download link: [SSRN code](https://github.com/zilongzhong/SSRN/archive/master.zip).
 
-Here are the bibliography info:
+Here is the bibliography info:
 <br/>
 
 ```jason
