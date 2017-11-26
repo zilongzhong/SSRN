@@ -3,13 +3,18 @@
 This is a tensorflow and keras based implementation of SSRNs in the [TGRS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
 
 Code download link: [SSRN code](https://github.com/zilongzhong/SSRN/archive/master.zip).
+
+Here are the bibliography info:
 <br/>
 
 ```jason
-Spectral-spatial residual networks for hyperspectral image classification: a 3-D deep learning framework
-Zilong Zhong, Jonathan Li, Zhiming Luo, Michael Chapman
-IEEE Transactions on Geoscience and Remote Sensing
-DOI: 10.1109/TGRS.2017.2755542
+@article{zhong2017spectral,
+  title={Spectral-Spatial Residual Network for Hyperspectral Image Classification: A 3-D Deep Learning Framework},
+  author={Zhong, Zilong and Li, Jonathan and Luo, Zhiming and Chapman, Michael},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2017},
+  publisher={IEEE}
+}
 ```
 
 ```jason
