@@ -17,12 +17,6 @@ Here are the bibliography info:
 }
 ```
 
-```jason
-Deep Residual Networks for Hyperspectral Image Classification
-Zilong Zhong, Jonathan Li, Lingfei Ma, Han Jiang, He Zhao
-IGARSS 2017
-```
-
 ## Descriptions
 In this paper, we designed an end-to-end spectral-spatial residual network (SSRN) that takes raw 3D cubes as input data without feature engineering for hyperspectral image classification. In this network, the spectral and spatial residual blocks consecutively learn discriminative features from abundant spectral signatures and spatial contexts in hyperspectral imagery (HSI).
 
