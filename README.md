@@ -1,7 +1,6 @@
 # Implementation of SSRN for Hyperspectral Image Classification
 
-This is a tensorflow and keras based implementation of SSRNs in the [TGRS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
-
+Paper links: [TGRS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
 Code download link: [SSRN code](https://github.com/zilongzhong/SSRN/archive/master.zip).
 
 Here is the bibliography info:
