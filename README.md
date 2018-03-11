@@ -8,7 +8,7 @@ Here is the bibliography info:
 
 ```jason
 @article{zhong2018spectral,
-  title={Spectral--Spatial Residual Network for Hyperspectral Image Classification: A 3-D Deep Learning Framework},
+  title={Spectral-Spatial Residual Network for Hyperspectral Image Classification: A 3-D Deep Learning Framework},
   author={Zhong, Zilong and Li, Jonathan and Luo, Zhiming and Chapman, Michael},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   volume={56},
