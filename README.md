@@ -3,31 +3,6 @@
 Paper links: [TGRS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
 Code download link: [SSRN code](https://github.com/zilongzhong/SSRN/archive/master.zip).
 
-Here is the bibliography info:
-<br/>
-
-```jason
-@article{zhong2018spectral,
-  title={Spectral-Spatial Residual Network for Hyperspectral Image Classification: A 3-D Deep Learning Framework},
-  author={Zhong, Zilong and Li, Jonathan and Luo, Zhiming and Chapman, Michael},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  volume={56},
-  number={2},
-  pages={847--858},
-  year={2018},
-  publisher={IEEE}
-}
-
-@inproceedings{zhong2017deep,
-  title={Deep Residual Networks for Hyperspectral Image Classification},
-  author={Zhong, Zilong and Li, Jonathan and Ma, Lingfei and Jiang, Han and Zhao, He},
-  booktitle={Geoscience and Remote Sensing Symposium (IGARSS), 2017 IEEE International},
-  pages={23--28},
-  year={2017},
-  organization={IEEE}
-}
-```
-
 ## Descriptions
 In this paper, we designed an end-to-end spectral-spatial residual network (SSRN) that takes raw 3D cubes as input data without feature engineering for hyperspectral image classification. In this network, the spectral and spatial residual blocks consecutively learn discriminative features from abundant spectral signatures and spatial contexts in hyperspectral imagery (HSI).
 
@@ -89,6 +64,31 @@ Fig.4  The IN dataset classification result (Overall Accuracy 99.44%) of SSRN us
 <img src="figure/fig2.png" height="200"/>
 
 Fig.5  The UP dataset classification result (Overall Accuracy 99.91%) of SSRN using 10% samples for training. (a) False color image. (b) Ground truth labels. (c) Classification map.
+
+Here are the bibliography info:
+<br/>
+
+```jason
+@article{zhong2018spectral,
+  title={Spectral-Spatial Residual Network for Hyperspectral Image Classification: A 3-D Deep Learning Framework},
+  author={Zhong, Zilong and Li, Jonathan and Luo, Zhiming and Chapman, Michael},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={56},
+  number={2},
+  pages={847--858},
+  year={2018},
+  publisher={IEEE}
+}
+
+@inproceedings{zhong2017deep,
+  title={Deep Residual Networks for Hyperspectral Image Classification},
+  author={Zhong, Zilong and Li, Jonathan and Ma, Lingfei and Jiang, Han and Zhao, He},
+  booktitle={Geoscience and Remote Sensing Symposium (IGARSS), 2017 IEEE International},
+  pages={23--28},
+  year={2017},
+  organization={IEEE}
+}
+```
 
 ## IGARSS Presentation
 
