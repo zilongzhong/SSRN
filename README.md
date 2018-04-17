@@ -14,7 +14,7 @@ Fig.1 Spectral Residual Block
 
 Fig.2 Spatial Residual Block
 
-<img src="figure/fig1.png" height="300"/>
+<img src="figure/new_fig.png" height="300"/>
 
 Fig.3  Spectral-Spatial Residual Network with a 7x7x200 input HSI volume. The network includes two spectral and two spatial residual blocks. An average pooling layer and a fully connected layer transform a 5x5x24 spectral-spatial feature volume into a 1x1xL output feature vector
 
