@@ -32,6 +32,8 @@ When you create a conda environment, check you have installed the packages in th
 
 ## Usage
 
+If you encountered problems like " no such file or direcotry", please check the corresponding paths and change them to absolute paths.
+
 Train models with commonly studied hyperspectral imagery (HSI) datasets:
 ```bash
 $ python ./SSRN_IN.py
