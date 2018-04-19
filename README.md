@@ -32,8 +32,6 @@ When you create a conda environment, check you have installed the packages in th
 
 ## Usage
 
-If you encountered problems like " no such file or direcotry", please check the corresponding paths and change them to absolute paths.
-
 Train models with commonly studied hyperspectral imagery (HSI) datasets:
 ```bash
 $ python ./SSRN_IN.py
@@ -52,6 +50,8 @@ $python ./Classification\ Maps/IN_classification_maps.py
 $python ./Classification\ Maps/UP_classification_maps.py
 
 ```
+
+If you encountered problems like " no such file or direcotry", please check the corresponding paths and change them to absolute paths.
 
 ## Results
 
