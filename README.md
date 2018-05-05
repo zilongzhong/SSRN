@@ -17,15 +17,6 @@ Here are the bibliography info:
   year={2018},
   publisher={IEEE}
 }
-
-@inproceedings{zhong2017deep,
-  title={Deep Residual Networks for Hyperspectral Image Classification},
-  author={Zhong, Zilong and Li, Jonathan and Ma, Lingfei and Jiang, Han and Zhao, He},
-  booktitle={Geoscience and Remote Sensing Symposium (IGARSS), 2017 IEEE International},
-  pages={23--28},
-  year={2017},
-  organization={IEEE}
-}
 ```
 
 ## Descriptions
