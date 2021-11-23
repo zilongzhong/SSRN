@@ -3,7 +3,7 @@
 Paper links: [IEEE T-GARS paper](http://ieeexplore.ieee.org/document/8061020/) and [IGARSS2017 paper](https://www.researchgate.net/publication/320145356_Deep_Residual_Networks_for_Hyperspectral_Image_Classification).
 Code download link: [SSRN code](https://github.com/zilongzhong/SSRN/archive/master.zip).
 
-**UPDATE:** A PyTorch implementation of SSTN is available at [SSTN](https://github.com/zilongzhong/SSTN). Specifically, you can find it here: [PyTorch-SSRN](https://github.com/zilongzhong/SSTN/blob/main/NetworksBlocks.py)
+**UPDATE:** A PyTorch implementation of SSRN is available at [SSTN](https://github.com/zilongzhong/SSTN). Specifically, you can find it here: [PyTorch-SSRN](https://github.com/zilongzhong/SSTN/blob/main/NetworksBlocks.py)
 
 Here are the bibliography info:
 <br/>
